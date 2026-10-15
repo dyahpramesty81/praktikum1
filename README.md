@@ -4,7 +4,7 @@ Identitas Mahasiswa
 Nama: Novita Agil Dyah Pramesti
 NIM: G.231.25.0068
 Program Studi: Teknik Informatika
-Kelas: Belum diisi
+Kelas: SoreA
 Kelompok: Belum diisi
 Teknologi yang Digunakan
 HTML5 untuk struktur halaman.
