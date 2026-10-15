@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website profil mahasiswa Novita Agil Dyah Pramesti.">
+  <title>Profil Mahasiswa | Praktikum 1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="brand" href="#beranda"><span class="brand-mark">P</span> Profil<span>Ku</span></a>
+    <nav aria-label="Navigasi utama"><a href="#beranda">Beranda</a><a href="#profil">Profil</a><a href="#tentang">Tentang</a></nav>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Ganti tema">☾</button>
+  </header>
+  <main>
+    <section class="hero" id="beranda">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span> WEBSITE PROFIL MAHASISWA</p>
+        <h1>Halo, saya<br><span class="accent" id="heroName">Novita Agil Dyah Pramesti</span></h1>
+        <p class="intro">Selamat datang di website profil saya. Halaman ini dibuat sebagai bagian dari praktikum dasar pengembangan web menggunakan HTML, CSS, dan JavaScript.</p>
+        <a class="primary-button" href="#profil">Lihat Profil <span aria-hidden="true">↘</span></a>
+      </div>
+      <div class="hero-art" aria-label="Foto mahasiswa">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="profile-photo">
+          <img src="foto-mahasiswa.jpg" alt="Foto Novita Agil Dyah Pramesti" id="studentPhoto" onerror="this.style.display='none'; document.getElementById('photoFallback').style.display='grid';">
+          <div class="photo-fallback" id="photoFallback">TAMBAHKAN<br>FOTO</div>
+        </div>
+        <span class="float-tag tag-top">✦ Mahasiswa</span><span class="float-tag tag-bottom">Belajar • Berkarya</span>
+      </div>
+    </section>
+    <section class="profile-section" id="profil">
+      <div class="section-heading"><p class="eyebrow">KENALI SAYA</p><h2>Profil Mahasiswa</h2><p>Informasi singkat mengenai identitas akademik saya.</p></div>
+      <div class="profile-card">
+        <div class="card-top"><span class="mini-mark">P</span><span class="status"><span class="dot"></span> Profil Mahasiswa</span></div>
+        <div class="identity"><div class="avatar-small">NA</div><div><h3 id="profileName">Novita Agil Dyah Pramesti</h3><p>Mahasiswa Teknik Informatika</p></div></div>
+        <div class="info-grid">
+          <div class="info-item"><span class="info-icon">▤</span><div><small>NOMOR INDUK MAHASISWA</small><strong id="profileNim">G.231.0068</strong></div></div>
+          <div class="info-item"><span class="info-icon">⌂</span><div><small>PROGRAM STUDI</small><strong>Teknik Informatika</strong></div></div>
+          <div class="info-item"><span class="info-icon">▦</span><div><small>KELAS</small><strong id="profileClass">Belum diisi</strong></div></div>
+          <div class="info-item"><span class="info-icon">◎</span><div><small>KELOMPOK</small><strong id="profileGroup">Belum diisi</strong></div></div>
+        </div>
+        <div class="card-footer"><span>✦</span> Terus belajar, terus berkembang.</div>
+      </div>
+    </section>
+    <section class="about-section" id="tentang">
+      <div><p class="eyebrow">TENTANG WEBSITE</p><h2>Dibuat dengan<br><span class="accent">kreativitas dan kode.</span></h2></div>
+      <div class="about-copy"><p>Website ini merupakan latihan pengembangan halaman web sederhana. HTML digunakan untuk menyusun struktur, CSS untuk mengatur tampilan, dan JavaScript untuk menambahkan interaksi.</p><div class="tech-list"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div></div>
+    </section>
+  </main>
+  <footer><a class="brand" href="#beranda"><span class="brand-mark">P</span> Profil<span>Ku</span></a><p>© <span id="year"></span> Novita Agil Dyah Pramesti · Praktikum 1</p><a href="#beranda" class="back-top">Kembali ke atas ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
