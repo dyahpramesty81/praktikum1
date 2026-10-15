@@ -1,8 +1,8 @@
 // Identitas mahasiswa. Kelas dan kelompok belum diberikan.
 const student = {
   name: "Novita Agil Dyah Pramesti",
-  nim: "G.231.0068",
-  kelas: "Belum diisi",
+  nim: "G.231.25.0068",
+  kelas: "Sore A",
   kelompok: "Belum diisi"
 };
 
